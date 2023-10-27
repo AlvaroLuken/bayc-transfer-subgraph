@@ -9,7 +9,7 @@ import {
 import { Address, BigInt } from "@graphprotocol/graph-ts"
 import { Approval } from "../generated/schema"
 import { Approval as ApprovalEvent } from "../generated/BAYC/BAYC"
-import { handleApproval } from "../src/bayc"
+import { handleApproval } from "../src/bayc_copy"
 import { createApprovalEvent } from "./bayc-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
